@@ -26,8 +26,7 @@
         "analyze": "ANALYZE=true pnpm next:build",
         "prettier": "prettier '**/*.{js,ts,tsx,json,mdx}' --check",
         "prettier:fix": "prettier '**/*.{js,ts,tsx,json,mdx}' --write",
-        "pre-commit": "lint-staged",
-        "prepare": "husky install"
+        "pre-commit": "lint-staged"
     },
     "dependencies": {
         "@builder.io/partytown": "^0.6.4",
