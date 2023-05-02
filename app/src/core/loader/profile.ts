@@ -1,10 +1,8 @@
-import { BLOG_PROFILE_DIR } from "@constants/blog.dir"
-
 import { readFile } from "fs/promises"
 
 import { BlogErrorAdditionalInfo, BlogFileExtractionError } from "@core/error"
 
-import { definePlugins } from "@core/loader/util"
+import { blogProfileDir, definePlugins } from "@core/loader/util"
 import { bundlePost } from "@core/loader/post"
 
 import remarkGfm from "remark-gfm"
@@ -20,12 +18,12 @@ import { rehypeInjectCodeClassName } from "@lib/rehype"
  */
 const getProfileSource = async () => {
     try {
-        const profileContent = await readFile(BLOG_PROFILE_DIR, "utf-8")
+        const profileContent = await readFile(blogProfileDir, "utf-8")
         if (!profileContent)
             throw new BlogFileExtractionError({
                 errorNameDescription: "post file extraction error occurred",
                 readingFileFormat: ".mdx",
-                readingFileLocation: BLOG_PROFILE_DIR,
+                readingFileLocation: blogProfileDir,
                 readingFileName: "profile.mdx",
             })
 
@@ -45,7 +43,7 @@ const getProfileSource = async () => {
             passedError: err,
             errorNameDescription: "profile file reading error",
             message: "",
-            customErrorMessage: `your profile file at:\n\n   ${BLOG_PROFILE_DIR}`,
+            customErrorMessage: `your profile file at:\n\n   ${blogProfileDir}`,
         })
     }
 }

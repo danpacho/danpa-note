@@ -1,6 +1,6 @@
-import { NoteBackgroundProps } from "@components/_layout/NoteBackground"
+import type { NoteBackgroundProps } from "@components/_layout/NoteBackground"
 import type { ContactPlatformType } from "@core/contact"
-import getAuthorContactHref from "@core/contact"
+import { getAuthorContactHref } from "@core/contact"
 
 const contacts: Readonly<
     {
@@ -9,47 +9,38 @@ const contacts: Readonly<
         email: string // ✅ email for RSS
     }
 > = {
-    email: getAuthorContactHref("email", "your_email"),
-    github: getAuthorContactHref("github", "github_id"),
-    youtube: getAuthorContactHref("youtube", "youtube_id"),
-    facebook: getAuthorContactHref("facebook", "facebook_id"),
-    linkedin: getAuthorContactHref("linkedin", "linkedin_id"),
-    twitter: getAuthorContactHref("twitter", "twitter_id"),
+    email: getAuthorContactHref("email", "danpa725@cau.ac.kr"),
+    github: getAuthorContactHref("github", "danpacho"),
 }
-
 const author = {
-    name: "your name",
-    introduce: "Introduce yourself",
+    name: "danpacho",
+    introduce: "기록의 힘",
     faviconUrl: "/favicon.ico",
     bannerImageUrl: "/banner.png",
     contacts,
 } as const
 
 const blog = {
-    url: "your DEPLOY URL",
-    siteName: "your site name",
-    subtitle: "your site subtitle",
+    url: "https://danpa-note.vercel.app",
+    siteName: "danpa note",
+    subtitle: "🦦",
     copyright: `${
         author.name
     }© All rights reserved ${new Date().getFullYear()}.`,
     language: "ko",
-    googleAnalyticsID: "DISABLED", // default to "DISABLED"
-} as const
+    googleAnalyticsID: "G-3Q1R8QPN7D", // default to "DISABLED"
+}
 
 const config = {
-    blogContentsDirectoryName: "blog", // blog contents directory name
+    blogContentsDirectoryName: "@blog", // blog contents directory name
     useKatex: false, // katex option
     postPerCategoryPage: 8,
     numberOfLatestPost: 4,
     numberOfMainPageCategory: 5,
-
-    themeColor: "#73d1d7",
-
     postControllerText: {
-        first: (category: string) => `Return to ${category}`, // first post ➡️ no prev post, so replace with your text
-        last: (category: string) => `Last contents of ${category}`, // last post ➡️ no next post, so replace with your text
+        first: (category: string) => `${category}로 돌아가기`, // first post ➡️ no prev post, so replace with your text
+        last: (category: string) => `${category}의 마지막 콘텐츠`, // last post ➡️ no next post, so replace with your text
     },
-
     navigationMenu: [
         {
             name: "Home",
@@ -64,7 +55,7 @@ const config = {
             path: "/profile",
         },
     ],
-
+    themeColor: "#7D694B",
     noteBackgroundStyle: {
         rectWidth: 300,
         rectHeight: 200,
@@ -75,7 +66,6 @@ const config = {
         rectStrokeDark: "dark:stroke-teal-700/50",
         bgDark: "dark:bg-neutral-900",
     } as NoteBackgroundProps,
-
     author,
     ...blog,
 } as const

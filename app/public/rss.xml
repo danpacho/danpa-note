@@ -1,0 +1,24 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>danpa note</title>
+    <link>https://danpa-note.vercel.app</link>
+    <description>🦦</description>
+    <language>ko</language>
+    <lastBuildDate>Wed, 23 Nov 2022 00:00:00 GMT</lastBuildDate>
+    <webMaster>danpa725@cau.ac.kr (danpacho)</webMaster>
+    <managingEditor>danpa725@cau.ac.kr (danpacho)</managingEditor>
+    <atom:link href="https://danpa-note.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <guid>https://danpa-note.vercel.app/javascript/1/클로져-파먹어-보기1.md</guid>
+      <title>클로져 파먹어⚔️ 보기 - 1</title>
+      <link>https://danpa-note.vercel.app/javascript/1/클로져-파먹어-보기1.md</link>
+      <description>자바스크립트 영원의 숙원사업 클로져👻를 채굴해봅니다</description>
+      <pubDate>Wed, 23 Nov 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (단팥줘)</author>
+      <category>closure</category><category>js</category>
+    </item>
+    
+  </channel>
+</rss>

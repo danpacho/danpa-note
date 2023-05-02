@@ -1,5 +1,5 @@
 export * from "./addPathNotation"
-export * from "./blogContentsDir"
+export * from "./blogDir"
 export * from "./getValidateColor"
 export * from "./removeFileFormat"
 export * from "./definePlugins"
