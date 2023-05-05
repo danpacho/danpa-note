@@ -11,6 +11,17 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url><loc>https://danpa-note.vercel.app/profile</loc></url>
 
 <url><loc>https://danpa-note.vercel.app/javascript</loc><priority>0.4</priority><changefreq>monthly</changefreq></url>
+<url><loc>https://danpa-note.vercel.app/prisma</loc><priority>0.4</priority><changefreq>monthly</changefreq></url>
+<url><loc>https://danpa-note.vercel.app/trpc</loc><priority>0.4</priority><changefreq>monthly</changefreq></url>
+<url><loc>https://danpa-note.vercel.app/회고록</loc><priority>0.4</priority><changefreq>monthly</changefreq></url>
 <url><loc>https://danpa-note.vercel.app/javascript/1</loc><priority>0.2</priority><changefreq>daily</changefreq></url>
+<url><loc>https://danpa-note.vercel.app/prisma/1</loc><priority>0.2</priority><changefreq>daily</changefreq></url>
+<url><loc>https://danpa-note.vercel.app/trpc/1</loc><priority>0.2</priority><changefreq>daily</changefreq></url>
+<url><loc>https://danpa-note.vercel.app/회고록/1</loc><priority>0.2</priority><changefreq>daily</changefreq></url>
+<url><loc>https://danpa-note.vercel.app/회고록/1</loc><priority>0.2</priority><changefreq>daily</changefreq></url>
 <url><loc>https://danpa-note.vercel.app/javascript/1/클로져-파먹어-보기1.md</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2022-11-23</lastmod></url>
+<url><loc>https://danpa-note.vercel.app/prisma/1/basic.md</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2023-05-05</lastmod></url>
+<url><loc>https://danpa-note.vercel.app/trpc/1/basic.md</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2023-05-05</lastmod></url>
+<url><loc>https://danpa-note.vercel.app/회고록/1/팀과-떠나는-두번째-여정</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2023-05-05</lastmod></url>
+<url><loc>https://danpa-note.vercel.app/회고록/1/팀과-떠나는-첫번째-여정.md</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2023-05-05</lastmod></url>
 </urlset>

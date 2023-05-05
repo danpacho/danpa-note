@@ -19,6 +19,42 @@
       <author>danpa725@cau.ac.kr (단팥줘)</author>
       <category>closure</category><category>js</category>
     </item>
+    <item>
+      <guid>https://danpa-note.vercel.app/prisma/1/basic.md</guid>
+      <title>basic</title>
+      <link>https://danpa-note.vercel.app/prisma/1/basic.md</link>
+      <description>PREVIEW</description>
+      <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (AUTHOR)</author>
+      <category>TAG1</category><category>TAG2</category>
+    </item>
+    <item>
+      <guid>https://danpa-note.vercel.app/trpc/1/basic.md</guid>
+      <title>basic</title>
+      <link>https://danpa-note.vercel.app/trpc/1/basic.md</link>
+      <description>PREVIEW</description>
+      <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (AUTHOR)</author>
+      <category>TAG1</category><category>TAG2</category>
+    </item>
+    <item>
+      <guid>https://danpa-note.vercel.app/회고록/1/팀과-떠나는-두번째-여정</guid>
+      <title>팀과 떠나는 두번째 여정</title>
+      <link>https://danpa-note.vercel.app/회고록/1/팀과-떠나는-두번째-여정</link>
+      <description>PREVIEW</description>
+      <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (AUTHOR)</author>
+      <category>TAG1</category><category>TAG2</category>
+    </item>
+    <item>
+      <guid>https://danpa-note.vercel.app/회고록/1/팀과-떠나는-첫번째-여정.md</guid>
+      <title>팀과 떠나는 첫번째 여정</title>
+      <link>https://danpa-note.vercel.app/회고록/1/팀과-떠나는-첫번째-여정.md</link>
+      <description>Thanks clip을 만들면서</description>
+      <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (장준성)</author>
+      <category>리드</category>
+    </item>
     
   </channel>
 </rss>
