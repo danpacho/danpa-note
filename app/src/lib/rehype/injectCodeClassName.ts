@@ -58,16 +58,16 @@ const tokenClassNames: {
     property: "text-teal-500",
 
     // green 300
-    string: "text-green-300 italic",
+    string: "text-emerald-500",
 
     // blue #82aaff
-    constant: "text-[#82aaff] font-semibold",
-    function: "text-[#82aaff] font-semibold",
-    builtin: "text-[#82aaff] font-semibold",
-    char: "text-[#82aaff] font-semibold",
+    constant: "text-[#82aaff]",
+    function: "text-[#82aaff]",
+    builtin: "text-[#82aaff]",
+    char: "text-[#82aaff]",
 
     // red 400
-    tag: "text-red-400 font-semibold",
+    tag: "text-red-400",
     boolean: "text-red-400",
     // red 500
     deleted: "text-red-500 italic",
@@ -75,16 +75,16 @@ const tokenClassNames: {
     // orange 200
     atRule: "text-orange-200",
     number: "text-orange-200",
-    "maybe-class-name": "text-orange-200 font-semibold",
+    "maybe-class-name": "text-orange-200",
     "attr-value": "text-orange-200",
     // orange 300
-    generic: "text-orange-300 font-semibold",
-    "class-name": "text-orange-300 font-semibold",
-    "known-class-name": "text-orange-300 font-semibold",
+    generic: "text-orange-300",
+    "class-name": "text-orange-300",
+    "known-class-name": "text-orange-300",
     "attr-name": "text-orange-300",
 
     // neutral 100
-    important: "text-neutral-100 font-semibold",
+    important: "text-neutral-100",
     regex: "text-neutral-100",
     variable: "text-neutral-100",
     // neutral 300
