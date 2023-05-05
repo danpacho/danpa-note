@@ -32,7 +32,7 @@ const blog = {
 }
 
 const config = {
-    blogContentsDirectoryName: "@blog", // blog contents directory name
+    blogContentsDirectoryName: "blog", // blog contents directory name
     useKatex: false, // katex option
     postPerCategoryPage: 8,
     numberOfLatestPost: 4,

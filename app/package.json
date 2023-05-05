@@ -1,5 +1,5 @@
 {
-    "name": "danpa-note",
+    "name": "danpa-note-app",
     "version": "1.0.0",
     "author": {
         "name": "danpacho",
@@ -14,7 +14,7 @@
     "private": "true",
     "license": "MIT",
     "scripts": {
-        "dev": "next-remote-watch ./@blog/",
+        "dev": "next-remote-watch ../@blog/",
         "seo": "ts-node -r tsconfig-paths/register --project tsconfig.node.json ./scripts/seo.ts",
         "next:build": "next build",
         "next:lint": "next lint",
@@ -22,7 +22,6 @@
         "svg": "npx @svgr/cli src/components/_icons --out-dir src/components/_icons --typescript",
         "build": "pnpm next:build && pnpm seo",
         "start": "next start",
-        "post": "post-generator",
         "analyze": "ANALYZE=true pnpm next:build",
         "prettier": "prettier '**/*.{js,ts,tsx,json,mdx}' --check",
         "prettier:fix": "prettier '**/*.{js,ts,tsx,json,mdx}' --write",
@@ -52,7 +51,6 @@
         "unist-util-visit": "^4.1.0"
     },
     "devDependencies": {
-        "@danpacho/post-generator": "^1.2.14",
         "@next/bundle-analyzer": "^12.2.5",
         "@types/mdx": "^2.0.2",
         "@types/mdx-js__react": "^1.5.5",
