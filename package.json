@@ -1,0 +1,8 @@
+{
+    "name": "danpa-note",
+    "version": "1.0.0",
+    "description": "my note",
+    "scripts": {
+        "post": "npx @danpacho/post-generator"
+    }
+}
